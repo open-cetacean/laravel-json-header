@@ -1,0 +1,25 @@
+{
+    "name": "open-cetacean/laravel-json-header",
+    "description": "Middleware to force Laravel API group to JSON header",
+    "keywords": ["laravel", "framework", "json", "header", "middleware"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Open Cetacean",
+            "email": "open-cetacean@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenCetacean\\JsonHeader\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+}
