@@ -26,7 +26,7 @@ To register the middleware add the following to the `$routeMiddleware` array wit
 ```php
 protected $routeMiddleware = [
     // ...
-    'jsonHeader' => \OpenCetacean\JsonHeader\Middleware\AcceptJson::class,
+    'acceptJson' => \OpenCetacean\JsonHeader\Middleware\AcceptJson::class,
     // ...
 ];
 ```
